@@ -5,9 +5,14 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.DoS.Web", "PoC.DoS.Web\PoC.DoS.Web.csproj", "{A60793F1-E341-49FA-8F8A-B0FF34D36B3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.DoS.App", "PoC.DoS.App\PoC.DoS.App.csproj", "{D7E1EE19-92DE-451A-851F-3D4FEFD01879}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.DoS.App", "PoC.DoS.App\PoC.DoS.App.csproj", "{D7E1EE19-92DE-451A-851F-3D4FEFD01879}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.DoS.Services", "PoC.DoS.Services\PoC.DoS.Services.csproj", "{4410AD06-FCB3-4836-8328-75600150B179}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.DoS.Services", "PoC.DoS.Services\PoC.DoS.Services.csproj", "{4410AD06-FCB3-4836-8328-75600150B179}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54EB8D4A-B0EC-4526-8691-B45675C7E0D5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
