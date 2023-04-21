@@ -1,0 +1,31 @@
+﻿@model DoSViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="card">
+    <h5 class="card-header">DoS</h5>
+    <div class="card-body">
+        <h5 class="card-title">Are you sure?</h5>
+        <p class="card-text">You're going to DoS your test website (NON-Production) and this action can NOT be canceled.</p>
+        
+        <form method="post" asp-controller="Home" asp-action="Index">
+
+            <div class="mb-3">
+                <label for="url" class="form-label">Url</label>
+                <input asp-for="Url" type="url" class="form-control" id="url" placeholder="Your website under to DoS test">
+                <span class="text-danger" asp-validation-for="Url"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="request" class="form-label"># Request</label>
+                <input asp-for="NumberOfRound" type="number" min="1" max="1000000" class="form-control" id="url" placeholder="Number of round you want to send">
+                <span class="text-danger" asp-validation-for="NumberOfRound"></span>
+            </div>
+
+            <button type="submit" class="btn btn-danger">☠️ Run</button>
+        </form>
+
+    </div>
+</div>
